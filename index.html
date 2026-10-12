@@ -1,0 +1,86 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Configuration</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 25px;
+        }
+
+        .container {
+            background: white;
+            margin: 40px auto;
+            padding: 25px;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #0078d7;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005a9e;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DevOps Configuration</h1>
+        <p>Automate, Build, Test, and Deploy</p>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to DevOps</h2>
+        <p>DevOps combines Development and Operations
+           to deliver software faster and more reliably.</p>
+
+        <h3>DevOps Tools</h3>
+        <p>Git | Docker | Jenkins | Kubernetes</p>
+
+        <button onclick="showMessage()">Check Status</button>
+
+        <p id="status"></p>
+    </div>
+
+    <footer>
+        <p>Simple DevOps Configuration Project</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("status").innerHTML =
+                "Status: DevOps page is running successfully!";
+        }
+    </script>
+
+</body>
+</html>
+```
